@@ -1,6 +1,6 @@
 # AltSchool First Semester Assignment Project - SCISSOR URL SHORTER
 
-This is a solution to the [AltSchool First Semester Assignment Project - SCISSOR URL SHORTER](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [AltSchool First Semester Assignment Project - SCISSOR URL SHORTER](https://main--lighthearted-kleicha-e47dc0.netlify.app/).
 
 ## Table of contents
 
@@ -13,31 +13,30 @@ This is a solution to the [AltSchool First Semester Assignment Project - SCISSOR
 
 ## Overview
 
+    SCISSOR URL SHORTER is an assesment project from Altschool Africa to test student knowledge on what have learnt so far in the first semester of the bootcamp.
+
 ### Screenshot
 
 #### Desktop
 
-![](./assets/Images/Screenshot%202.png)
+![](./Public/image/screenshot.png)
 
 #### Mobile
 
-![](./assets/Images/Screenshot%201.png)
+<!-- ![](./assets/Images/Screenshot%201.png) -->
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/Samdevtechnology/Four-Cards-Feature-Section)
-- Live Site URL: [results-summary-component](https://four-cards-feature-section-two.vercel.app/)
+- Solution URL: [Github Repo](https://github.com/Samdevtechnology/Scissor)
+- Live Site URL: [SCISSOR URL SHORTER](https://main--lighthearted-kleicha-e47dc0.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- Font Face
 - CSS custom properties
-- CSS Animation
-- Flex Box
-- Google Font
-- Mobile-first workflow
 
 ## Author
 

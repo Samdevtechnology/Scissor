@@ -15,6 +15,10 @@
   --primary-bg-color: #1e3448;
   --secondary-bg-color: #f9fbfd;
   --tertiary-bg-color: #3284ff21;
+  --hero-card-bg-color: #fefefe1a;
+
+  /* COLORS - BACKGROUND  */
+  --primary-border-color: #d6d6d6;
 
   /* COLORS - LINEAR GRADIENT  */
   --primary-border-linear: linear-gradient(#112232, #fff) 5;
@@ -22,12 +26,6 @@
 body {
   font-family: Gilroy-Medium;
   color: var(--primary-text-color);
-}
-
-#wrapper {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
 }
 
 #container {
@@ -62,8 +60,11 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-  margin-top: 0.25rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--white-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 #header .logo {
@@ -117,6 +118,137 @@ body {
 }
 
 /* HEADER ENDS HERE!!! */
+
+/* HERO SECTION STARTS HERE!!! */
+#hero {
+  margin-top: 4rem;
+}
+
+#hero .wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#hero .hero-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#hero h4 {
+  font-size: 3rem;
+  font-family: Gilroy-Bold;
+  line-height: 6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#hero h4 div {
+  margin-top: -1rem;
+  line-height: 0;
+}
+
+#hero h4 span {
+  color: var(--secondary-color);
+}
+
+#hero .hero-text p {
+  width: 60%;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+#hero .cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3.5rem;
+}
+
+#hero .cta .sign-up {
+  color: var(--primary-text-light);
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  padding: 0.75rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rem;
+  font-family: Gilroy-Medium;
+  line-height: 0.75rem;
+}
+
+#hero .cta .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gilroy-Medium;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+#hero .hero-card {
+  position: relative;
+  z-index: 5;
+  width: 50%;
+}
+
+#hero .hero-card > div {
+  margin: 5rem 0;
+  padding: 2.5rem 3.75rem;
+  border: 0.5px solid var(--secondary-color);
+  background-color: var(--hero-card-bg-color);
+  backdrop-filter: blur(6.625rem);
+  border-radius: 2rem;
+}
+
+#hero .hero-card p {
+  margin: 0.5rem auto 0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  line-height: 1.5rem;
+  width: 60%;
+}
+
+#hero .hero-card .vector-bg {
+  position: absolute;
+  top: 4.1rem;
+  left: 0.575rem;
+  z-index: -5;
+}
+
+#hero .hero-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(./icons/trapezium-vector.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero .hero-footer .ellipse {
+  width: 60%;
+  margin: 1.25rem 0;
+  height: 3.0625rem;
+  background: linear-gradient(
+    180deg,
+    rgba(226, 233, 240, 0.7) 10.68%,
+    rgba(220, 228, 235, 0.7) 44.01%,
+    rgba(226, 233, 240, 0) 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(18, 36, 89, 0.35);
+  border-radius: 100%;
+}
+/* HERO SECTION STARTS HERE!!! */
 
 /* ONE STOP SECTION STARTS HERE!!! */
 
@@ -475,6 +607,75 @@ body {
 }
 
 /* PASTE URL SECTION ENDS HERE!!! */
+
+/* FAQS SECTION STARTS HERE!!! */
+
+#faqs {
+  background-image: url(./icons/faqs-left-vector.svg),
+    url(./icons/faqs-right-vector.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  padding: 3.5rem 0;
+}
+
+#faqs .wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#faqs header h4 {
+  font-size: 2.5rem;
+  font-family: Gilroy-Bold;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+  border-left: 5px solid;
+  padding-left: 1rem;
+  border-image: var(--primary-border-linear);
+}
+
+#faqs ul {
+  width: 60%;
+}
+
+#faqs ul li {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.4px solid var(--primary-border-color);
+}
+
+#faqs ul li div {
+  line-height: 2rem;
+}
+
+#faqs ul li span {
+  cursor: pointer;
+}
+
+#faqs ul li div {
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+#faqs ul li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+#faqs ul .open > div {
+  margin-bottom: 1rem;
+}
+
+#faqs ul .open p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* FAQS SECTION ENDS HERE!!! */
 
 /* REVOL SECTION STARTS HERE!!! */
 
