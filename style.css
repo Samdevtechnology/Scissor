@@ -11,6 +11,11 @@
   --secondary-text-color: #071827;
   --tertiary-text-color: #112232;
 
+  /* COLORS - Aurora  */
+  --aurora-red-color: #d60505;
+  --aurora-green-color: #067808;
+  --aurora-yellow-color: #eac81f;
+
   /* COLORS - BACKGROUND  */
   --primary-bg-color: #1e3448;
   --secondary-bg-color: #f9fbfd;
@@ -35,6 +40,8 @@ body {
   grid-template-rows: auto 1fr auto;
   width: 100%;
   max-width: 96rem;
+  position: relative;
+  margin: 0 auto;
 }
 
 /* GENERAL COMPONENTS */
@@ -53,6 +60,37 @@ body {
   border-right: 2px solid;
 }
 
+/* AURORA STARTS HERE!!! */
+#aurora div {
+  width: 12.5rem;
+  height: 13.5rem;
+  position: absolute;
+  border-radius: 10rem;
+  filter: blur(22rem);
+}
+
+#aurora .red {
+  background-color: var(--aurora-red-color);
+  top: 0;
+  left: 3rem;
+}
+
+#aurora .green {
+  background-color: var(--aurora-green-color);
+  top: 1rem;
+  left: 30%;
+}
+
+#aurora .yellow {
+  width: 18rem;
+  height: 18.5rem;
+  top: 7rem;
+  right: 0;
+  border-radius: 18rem;
+  background-color: var(--aurora-yellow-color);
+}
+/* AURORA ENDS HERE!!! */
+
 /* HEADER STARTS HERE!!! */
 
 #header {
@@ -61,10 +99,11 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 1rem;
-  background-color: var(--white-color);
   position: sticky;
   top: 0;
   z-index: 10;
+  background: #ffffff33;
+  backdrop-filter: blur(0.5rem);
 }
 
 #header .logo {
@@ -230,9 +269,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url(./icons/trapezium-vector.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
 
 #hero .hero-footer .ellipse {
