@@ -145,7 +145,7 @@ select {
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
   appearance: none;
-  background-image: url(../icons/arrow-down-small.svg);
+  background-image: url(../assets/icons/arrow-down-colored.svg);
   background-position: 88% 50%;
   background-repeat: no-repeat;
 }
