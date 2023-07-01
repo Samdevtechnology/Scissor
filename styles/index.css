@@ -215,6 +215,11 @@ select {
   color: var(--primary-text-color);
 }
 
+#header .nav a.active {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 #header .nav a .arrow {
   margin-left: 0.5rem;
 }
@@ -346,7 +351,7 @@ select {
 
 #one-stop {
   background-color: var(--secondary-bg-color);
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
   padding: 3.75rem 0;
 }
 
@@ -396,20 +401,20 @@ select {
 
 /* ONE STOP SECTION ENDS HERE!!! */
 
-/* WHY US SECTION STARTS HERE!!! */
+/* FEATURES SECTION STARTS HERE!!! */
 
-#why-us {
-  margin-bottom: 4rem;
+#features {
+  padding: 5rem 0 2rem;
 }
 
-#why-us .wrapper > div {
+#features .wrapper > div {
   display: flex;
   justify-content: center;
   align-items: start;
   column-gap: 6rem;
 }
 
-#why-us aside {
+#features aside {
   width: 30%;
   line-height: 1.75rem;
   display: flex;
@@ -418,7 +423,7 @@ select {
   flex-direction: column;
 }
 
-#why-us aside h4 {
+#features aside h4 {
   border-left: 5px solid;
   padding-left: 1rem;
   border-image: var(--primary-border-linear);
@@ -427,22 +432,22 @@ select {
   line-height: 2rem;
   margin-bottom: 1rem;
 }
-#why-us aside h4 span {
+#features aside h4 span {
   color: var(--secondary-color);
 }
 
-#why-us aside p {
+#features aside p {
   padding-left: 1.5rem;
 }
 
-#why-us ul {
+#features ul {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem 1.75rem;
 }
 
-#why-us li span {
+#features li span {
   padding: 0.75rem;
   display: inline-flex;
   justify-content: center;
@@ -452,44 +457,44 @@ select {
   background-color: var(--tertiary-bg-color);
   margin-bottom: 2.5rem;
 }
-#why-us li span img {
+#features li span img {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-#why-us li h5 {
+#features li h5 {
   font-size: 2rem;
   font-family: Gilroy-Bold;
   line-height: 1.75rem;
   margin-bottom: 1rem;
 }
 
-#why-us li p {
+#features li p {
   line-height: 1.5rem;
 }
 
-/* WHY US SECTION ENDS HERE!!! */
+/* FEATURES SECTION ENDS HERE!!! */
 
-/* PLANS SECTION STARTS HERE!!! */
+/* PRICING SECTION STARTS HERE!!! */
 
-#plans {
-  padding-bottom: 7rem;
+#pricing {
+  padding-bottom: 5rem;
 }
 
-#plans header {
+#pricing header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 4.25rem;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
-#plans header div {
+#pricing header div {
   max-width: 37rem;
 }
 
-#plans header h3 {
+#pricing header h3 {
   font-size: 2.5rem;
   font-family: Gilroy-Bold;
   line-height: 3rem;
@@ -499,68 +504,68 @@ select {
   border-image: var(--primary-border-linear);
 }
 
-#plans header h3 span {
+#pricing header h3 span {
   color: var(--secondary-color);
 }
 
-#plans header p {
+#pricing header p {
   padding-left: 1.5rem;
   line-height: 1.5rem;
 }
 
-/* PLANS CARDS START HERE */
+/* PRICING CARDS START HERE */
 
-#plans .cards {
+#pricing .cards {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 4.25rem;
 }
 
-#plans .cards > li {
+#pricing .cards > li {
   border: 0.4px solid var(--secondary-color);
   border-radius: 0.75rem;
   padding: 0 6rem;
 }
 
-#plans .cards li h6 {
+#pricing .cards li h6 {
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 2.13rem;
   padding-top: 1.5rem;
 }
 
-#plans .cards li h4 {
+#pricing .cards li h4 {
   font-size: 2.5rem;
   line-height: 3rem;
   margin-bottom: 0.5rem;
 }
 
-#plans .cards li p {
+#pricing .cards li p {
   font-size: 1.25rem;
   line-height: 2rem;
   margin-bottom: 1rem;
 }
 
-#plans .cards li .features {
+#pricing .cards li .benefits {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
   margin-bottom: 1.8rem;
 }
-#plans .cards li .features img {
+#pricing .cards li .benefits img {
   margin-right: 0.5rem;
 }
 
-#plans .cards .basic {
+#pricing .cards .basic {
   margin-right: -3rem;
 }
 
-#plans .cards .teams {
+#pricing .cards .teams {
   margin-left: -3rem;
 }
 
-#plans .cards .professional {
+#pricing .cards .professional {
   border: none;
   padding: 6rem 6rem 6rem 4rem;
   z-index: 5;
@@ -568,52 +573,48 @@ select {
   color: var(--primary-text-light);
 }
 
-#plans .cards .professional h6 {
+#pricing .cards .professional h6 {
   padding: 0;
   margin-bottom: 1.5rem;
 }
 
-#plans .cards .professional p {
+#pricing .cards .professional p {
   margin-bottom: 1.5rem;
 }
 
-#plans .cta {
+#pricing .cta {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 1rem;
 }
 
-#plans .cta .select-btn {
+#pricing .cta .select-btn {
   padding: 0.75rem 2.5rem;
 }
 
-/* PLANS ENDS START HERE */
+/* PRICING CARDS ENDS START HERE */
 
-/* PLANS SECTION ENDS HERE!!! */
+/* PRICING SECTION ENDS HERE!!! */
 
-#gap {
-  width: 15rem;
-  height: 15rem;
-}
+/* ANALYTICS SECTION STARTS HERE!!! */
 
-/* PASTE URL SECTION STARTS HERE!!! */
-#paste-url {
+#analytics {
   background-color: var(--primary-bg-color);
   background-image: url(../assets/vectors/paste-url-left.svg),
     url(../assets/vectors/paste-url-right.svg);
   background-position: -800px -800px, 500px -100px;
   background-repeat: no-repeat;
-  padding: 5rem 0;
+  padding: 6rem 0 5rem;
 }
 
-#paste-url .wrapper > div {
+#analytics .wrapper > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#paste-url form {
+#analytics form {
   background-color: var(--white-color);
   color: var(--tertiary-color);
   display: flex;
@@ -625,27 +626,27 @@ select {
   border-radius: 0.75rem;
 }
 
-#paste-url form div {
+#analytics form div {
   display: flex;
   column-gap: 0.75rem;
 }
 
-#paste-url form div input,
-#paste-url form div select {
+#analytics form div input,
+#analytics form div select {
   width: 100%;
 }
 
-#paste-url form legend {
+#analytics form legend {
   padding: 0.625rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-#paste-url form legend a {
+#analytics form legend a {
   font-family: Gilroy-Bold;
   font-size: 1rem;
 }
 
-/* PASTE URL SECTION ENDS HERE!!! */
+/* ANALYTICS SECTION ENDS HERE!!! */
 
 /* FAQS SECTION STARTS HERE!!! */
 
@@ -654,7 +655,7 @@ select {
     url(../assets/vectors/faqs-right.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
-  padding: 3.5rem 0;
+  padding: 5rem 0 3.5rem;
 }
 
 #faqs .wrapper > div {
@@ -888,53 +889,53 @@ select {
     row-gap: 2rem;
   }
 
-  #why-us .wrapper > div {
+  #features .wrapper > div {
     flex-direction: column;
     row-gap: 3rem;
   }
 
-  #why-us aside {
+  #features aside {
     width: 100%;
   }
-  #why-us aside h4 {
+  #features aside h4 {
     font-size: 2rem;
     padding-left: 0.5rem;
   }
 
-  #why-us aside p {
+  #features aside p {
     padding-left: 1rem;
   }
 
-  #why-us ul {
+  #features ul {
     width: 100%;
     grid-template-columns: 1fr;
     row-gap: 2rem;
     text-align: center;
   }
 
-  #plans header h3 {
+  #pricing header h3 {
     margin-bottom: 1.5rem;
   }
 
-  #plans .cards {
+  #pricing .cards {
     flex-direction: column;
     row-gap: 2rem;
   }
 
-  #plans .cards .basic {
+  #pricing .cards .basic {
     margin: 0;
   }
 
-  #plans .cards .teams {
+  #pricing .cards .teams {
     margin: 0;
   }
 
-  #plans .cta {
+  #pricing .cta {
     flex-direction: column;
     row-gap: 1rem;
   }
 
-  #plans .cta button {
+  #pricing .cta button {
     width: 80%;
   }
 
