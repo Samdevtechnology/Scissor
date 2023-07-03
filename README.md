@@ -23,12 +23,12 @@ This is a solution to the [AltSchool First Semester Assignment Project - SCISSOR
 
 #### Mobile
 
-<!-- ![](./assets/Images/Screenshot%201.png) -->
+![](./Public/image/Screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Samdevtechnology/Scissor)
-- Live Site URL: [SCISSOR URL SHORTER](https://main--lighthearted-kleicha-e47dc0.netlify.app/)
+- Live Site URL: [SCISSOR](https://main--lighthearted-kleicha-e47dc0.netlify.app/)
 
 ## My process
 
@@ -36,6 +36,7 @@ This is a solution to the [AltSchool First Semester Assignment Project - SCISSOR
 
 - Semantic HTML5 markup
 - Font Face
+- Responsive design
 - CSS custom properties
 
 ## Author
